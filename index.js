@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
   let largeDataSet = []
   let location=[]
   // spawn new child process to call the python script
-  const python = spawn('python', ['predict.py', "example/DSC_0395.JPG"])
+  const python = spawn('python', ['predict.py', "DSC_0395.JPG"])
   //location=python('data', function (data)
 
   // collect data from script
