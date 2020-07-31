@@ -114,7 +114,7 @@ class Img2Vec():
 def main():
     room_names = []
     room_list = []
-    path = 'vectors/'
+    path = ''
 
     # birou0=np.ndarray((1,1))
     with open(path + 'birou0_file.csv') as birou0_file:
