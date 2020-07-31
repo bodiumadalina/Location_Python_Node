@@ -1,0 +1,32 @@
+{
+  "name": "node_python",
+  "version": "1.0.0",
+  "description": "1. Clone the repo: `git clone https://github.com/petranb2/Node_Python.git`\r 2. Download packages: `npm install` or `yarn`\r 3. Run the app: `npm start` or `yarn start` or `node index.js`\r 4. Visit in browser: `http://localhost:3000`",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.8"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petranb2/Node_Python.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/petranb2/Node_Python/issues"
+  },
+  "homepage": "https://github.com/petranb2/Node_Python#readme"
+}
