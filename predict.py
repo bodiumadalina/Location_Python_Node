@@ -227,7 +227,7 @@ def main():
             scores.append(cosine_similarity(U.reshape((1, -1)), picture.reshape((1, -1)))[0][0])
 
         scores = sorted(scores, reverse=True)
-        scores = scores[:1]
+        scores = scores[:5]
         room_values[room_names[count]] = Average(scores)
         count += 1
 
